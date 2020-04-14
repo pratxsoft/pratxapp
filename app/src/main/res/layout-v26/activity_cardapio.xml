@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/petisco"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.com.blbbb.blbb.activity.CardapioActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#bbffffff"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtFiltro"
+            android:hint="@string/pesquise_aqui_seu_produto"
+            android:inputType=""
+            android:autofillHints="" />
+
+        <ListView
+            android:id="@+id/lvCardapio"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btCardapioPedido"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/estilo_botao"
+                android:onClick="eventCardapioPedidoItens"
+                android:text="@string/itens_do_pedido" />
+
+            <Button
+                android:id="@+id/btCardapioFecharPedido"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/estilo_botao"
+                android:onClick="eventCardapioFecharPedido"
+                android:text="@string/enviar_para_cozinha" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pizza_login"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="437dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:background="#99ffffff"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvMainLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|fill_vertical"
+            android:text="BLBar - LOGIN"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:typeface="monospace" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login:"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/etMainLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="(use o padrão: juve ou amari)"
+            android:text="amar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senha:"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/etMainSenha"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:hint="(use o padrão: 123)"
+            android:inputType="textPassword"
+            android:text="123" />
+
+
+        <Button
+            android:id="@+id/btMainEntrar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/estilo_botao"
+            android:onClick="eventMainEntrar"
+            android:text="Entrar" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btMainOpcoes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/estilo_botao"
+            android:onClick="eventMainOpcoes"
+            android:text="Opcoes" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <Switch
+            android:id="@+id/swtNotificacoes"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="@dimen/activity_vertical_margin"
+            android:checked="true"
+            android:text="ATIVAR NOTIFICAÇÕES?" />
+    </LinearLayout>
+
+</RelativeLayout>

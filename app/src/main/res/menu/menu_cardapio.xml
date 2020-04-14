@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.blbbb.blbb.activity.CardapioActivity">
+    <item android:id="@+id/action_ordenar_codigo" android:title="@string/action_ordenar_codigo" android:orderInCategory="3" app:showAsAction="never" />
+    <item android:id="@+id/action_ordenar_codigo_desc" android:title="@string/action_ordenar_codigo_desc" android:orderInCategory="4" app:showAsAction="never" />
+    <item android:id="@+id/action_ordenar_alfabetico" android:title="@string/action_ordenar_alfabetico" android:orderInCategory="1" app:showAsAction="never" />
+    <item android:id="@+id/action_ordenar_alfabetico_desc" android:title="@string/action_ordenar_alfabetico_desc" android:orderInCategory="2" app:showAsAction="never" />
+</menu>

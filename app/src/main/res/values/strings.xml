@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BLBar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_ordenar_codigo">Ordenar por Código Crescente</string>
+    <string name="action_ordenar_codigo_desc">Ordenar por Código Decrescente</string>
+    <string name="action_ordenar_alfabetico">Ordenar por Nome Crescente</string>
+    <string name="action_ordenar_alfabetico_desc">Ordenar por Nome Decrescente</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="title_activity_config">Opcoes</string>
+    <string name="title_activity_bar">Bar</string>
+    <string name="title_activity_cardapio">Cardápio</string>
+    <string name="card_pio">Cardápio</string>
+    <string name="itens_pedidos">Itens pedidos</string>
+    <string name="mesa">Mesa</string>
+    <string name="itens_do_pedido">Itens do Pedido</string>
+    <string name="enviar_para_cozinha">Enviar para cozinha</string>
+    <string name="pesquise_aqui_seu_produto">Pesquise aqui seu produto</string>
+</resources>
