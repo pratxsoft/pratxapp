@@ -38,7 +38,7 @@ public class BLNotificacao {
     public void criarNotificacao(Context context, String pTitulo, String pConteudo){
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context, this.CHANNEL_ID)
-                .setSmallIcon(R.drawable.ic_launcher)
+                .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentTitle(pTitulo)
                 .setContentText(pConteudo)
                 .setNumber((int) Math.random())

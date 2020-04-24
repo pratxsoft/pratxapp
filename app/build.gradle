@@ -7,6 +7,7 @@ android {
         applicationId "com.br.blvendas"
         minSdkVersion 14
         targetSdkVersion 28
+        versionName "1.2"
     }
     buildTypes {
         release {
@@ -23,7 +24,6 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:28.+'
     implementation 'com.android.volley:volley:1.1.0'
     implementation 'com.google.code.gson:gson:2.8.2'
-192
 }
 
 
